@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Box Model Using Flexbox</title>
+  <meta charset="utf-8" />
+  <style>
+
+  body {
+    margin:0;
+    background-color: #def;
+  }
+  header {
+    margin:0;
+    position:fixed;
+    width: 100%;
+    background-color: #9ab;
+  }
+  nav {
+    float: right;
+    margin-right: 1em;
+  }
+  .wrapper{
+    height: 30vh;
+    display: flex;
+    padding: 2em;
+  }
+  .box1 {
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    background-color: #ccc;
+
+  }
+  .box2 {
+    flex:0 1 25%;
+    background-color: #d28;
+  }
+  .box3 {
+    flex:1 1 50%;
+    background-color: #f04;
+  }
+  .box4 {
+    flex:1;
+    background-color: #60b;
+  }
+  .box5 {
+    flex:1;
+    background-color: #0ef;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+  <div class="wrapper">
+    <div class="box1">
+      Box 1
+      <div class="box2">
+        Box 2
+      </div>
+      <div class="box3">
+        Box 3
+      </div>
+    </div>
+    <div class="box4">
+      Box 4
+    </div>
+    <div class="box5">
+      <body>
+        Box 5
+      </body>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nested Boxes, no flex</title>
+  <meta charset="utf-8" />
+  <style>
+  html {
+    margin: 0;
+  }
+  body {
+    box-sizing: border-box;
+    padding: 1em;
+    margin: 0;
+    box-shadow: 0 0 0 10px black inset;
+    height: 100vh;
+  }
+  nav {
+    margin:2rem;
+    float: right;
+    padding-bottom: 3em;
+  }
+  .box1 {
+    background-color: #ddd111;
+    margin: 0em;
+    padding: 3em;
+  }
+  .box2 {
+    background-color: #89f;
+    margin: 3em;
+    padding: 1em;
+  }
+  .box3 {
+    background-color: #f4a67c;
+    margin: 2em;
+    padding: 1em;
+  }
+  </style>
+</head>
+<body>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  <h1>Body</h1>
+  <div class="box1">
+    <h2></h2>
+    <div class="box2">
+      <h3></h3>
+      <div class="box3">
+        <h4></h4>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

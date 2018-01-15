@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>flex property drill</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="flex.css" />
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+  </nav>
+  <div class="wrap1">
+    <div class="row1">
+      <div class="box1">
+        <p>
+          row1 box1
+        </p>
+      </div>
+      <div class="box2">
+        <p>
+          row1 box2
+        </p>
+      </div>
+    </div>
+    <div class="row2">
+      <div class="box1">
+        <p>
+          row2 box1
+        </p>
+      </div>
+      <div class="box2">
+        <p>
+          row2 box2
+          <p>
+            Here the padding breaks the flex wrapper. You can adjust by re-sizing content
+            or by playing with flex settings on the individual boxes within the flex wrapper.
+          </p>
+        </p>
+      </div>
+    </div>
+    <div class="row3">
+      <div class="box1">
+        <p>
+          row3 box1
+          <p>
+            flex-basis: 50%;
+          </p>
+        </p>
+      </div>
+      <div class="box2">
+        <p>
+          row3 box2
+        </p>
+        <p>
+          flex-basis: 10%;
+        </p>
+      </div>
+      <div class="box3">
+        <p>
+          row 3 box 3
+        </p>
+        <p>
+          flex-basis: 40%;
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="wrap2">
+    <div class="col1">
+      <div class="col1box1">
+        col1 box1
+      </div>
+      <div class="col1box2">
+        col1 box2
+      </div>
+      <div class="co1box3">
+        col1 box3
+      </div>
+    </div>
+    <div class="col2">
+      <div class="col2box1">
+        col2 box1
+      </div>
+      <div class="col2box2">
+        col2 box2
+        <p>
+          Padding distorting the alignment.
+        </p>
+      </div>
+      <div class="col2box3">
+        col2 box3
+      </div>
+    </div>
+  </div>
+</body>
+</html>
