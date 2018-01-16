@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+nav {
+  float: right;
+  padding: 2em;
+}
+.content-box {
+  background-color: #aacccc;
+  font-size: .75rem;
+  width: 25%;
+  float:right;
+  overflow: scroll;
+}
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  margin: 1rem;
+}
+.box1 {
+  flex: 1;
+  background-color: #ccc;
+}
+.box2 {
+  flex: 1;
+  background-color: #999;
+}
+.box3 {
+  flex: 1;
+  background-color: #bbb;
+}
+.box4 {
+  flex: 1;
+  background-color: #ddd;
+}
