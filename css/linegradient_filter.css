@@ -1,0 +1,33 @@
+nav {
+  float: right;
+  padding: 2em;
+}
+div {
+  height: 10vh;
+  padding: 5em;
+}
+.box1 {
+  clear:both;
+  background:linear-gradient(blue, pink);
+  margin-top: 5em;
+}
+.box2 {
+  background: linear-gradient( to bottom, red, black, purple, #fd2, #ef35cd, #34e78a);
+}
+.box3 {
+  background: linear-gradient( to bottom right,transparent,pink), url(mouth-min-575x380.jpg);
+  filter: saturate(100) hue-rotate(90deg);
+}
+.box4 {
+  background:radial-gradient(red, pink,blue);
+}
+.box5 {
+  background: repeating-radial-gradient(black,black 5px,white 5px, green 10px);
+}
+.box6 {
+  background: url(mouth-min-575x380.jpg);
+  filter:blur(20px) saturate(50);
+}
+.box7 {
+  background: conic-gradient(at 50% 50% #fff, #000);
+}
