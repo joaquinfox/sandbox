@@ -1,14 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Jacques+Francois);  @import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans);
 
 body {
-  background-color:#949494;
-}
-.accordion-panel {
-  background-color: #fff;
-  display: none;
+  background-color:#979797;
 }
 .page {
   max-width: 640px;
+  margin: 0 auto 30px auto;
 }
 
 button {
@@ -38,6 +35,8 @@ p {
   background-color: #f2f2f2;
   color: #666;
   overflow: auto;
+  padding: 0;
+
 
 }
 .accordion li {
@@ -50,6 +49,9 @@ p {
   border-top: 1px solid #666;
 }
 .accordion-panel {
+  background-color: #fff;
+  display: none;
+  color: #666;
 }
 
 .accordion-panel p {
