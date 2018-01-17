@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Jacques+Francois);  @import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans);
+
+body {
+  background-color:#979797;
+}
+.page {
+  max-width: 640px;
+  margin: 0 auto 30px auto;
+}
+
+
+/***LOGO***/
+h1 {
+  width:200px;
+  height: 100px;
+  margin: 40px auto;
+  background-image: url('../img/logo.png');
+  background-repeat: no-repeat;
+}
+
+/***TYPOGRAPHY***/
+
+p {
+  font-family: 'Quattrocento Sans';
+  line-height: 1.5;
+}
+
+/***TAB***/
+.tab-panel {
+  display: none;
+}
+
+.content-panel.active {
+  display: block;
+}
